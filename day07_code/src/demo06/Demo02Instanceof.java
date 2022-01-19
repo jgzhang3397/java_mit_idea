@@ -31,8 +31,7 @@ public class Demo02Instanceof {
         if(animal instanceof Cat){
             Cat cat = (Cat) animal;
             cat.catchMouse();
-        }
-        if(animal instanceof Dog){
+        }else if(animal instanceof Dog){//不能只用else 三个以上子类不适用
             Dog dog = (Dog) animal;
             dog.watchHome();
         }
