@@ -1,4 +1,5 @@
-1 Object类：
+====================1 Object类：========================
+
     1.1 介绍：
         所有类的父类,一个类都会直接或者间接的继承自该类
         提供了一些方法，比如toString()方法 和 equals()方法
@@ -13,14 +14,11 @@
         b. 重写前：比较的是对象的地址值
         c. 重写后：比较的是对象中的属性值
     ...
-
-2 Objects类：
+====================2 Objects类：========================
     2.1 Objects.equals()方法
         对两个对象进行比较，防止空指针异常
 
-
-日期相关类：
-
+====================3 日期相关类：========================
 1. Date类
         a.构造方法
             Date(): 根据当前系统时间创建日期对象
@@ -46,6 +44,7 @@
         void add(int n, int value): 将指定日历字段增加或减少指定的值
         Date getTime(): 返回一个表示此Calendar时间值(从历元到现在的毫秒偏移量) 的Date对象
 
+====================System类：========================
 System类
 
 1. currentTimeMillis()方法
@@ -62,3 +61,27 @@ StringBuilder类
     StringBuilder append(Object obj); 添加内容
     StringBuilder reserve();  反转内容
     String toString(); 将缓冲区内容转换为字符串
+
+====================包装类：========================
+
+1. 基本数据类型对应的包装类
+    byte --> Byte
+    short --> Short
+    int --> Integer
+    long --> Long
+    float --> Float
+    double --> Double
+    char --> Character
+    boolean --> Boolean
+
+2. 数字转为字符串
+        * 基本类型数据的值+""最简单的方式(工作中常用）
+        * static String toString(int i)返回一个表示指定整数的String对象
+        * static String valueOf(int i)返回 int 参数的字符串表示形式
+
+3. 字符串转为数字
+        * 使用包装类的静态方法parseXX("字符串")
+            * Integer类：static int parseInt(String s)
+            * Double类： static double parseDouble(String s)
+            * ...
+4. 自动拆装箱
