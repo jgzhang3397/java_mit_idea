@@ -26,3 +26,12 @@ public class ArrayList<Student>{
     public boolean add(Student e){}
     public Student get(int index){}
 }
+
+泛型的使用：
+    1. 泛型类和泛型方法
+        类名<泛型>
+        方法名<泛型>
+    2. 泛型接口和泛型方法
+        接口名<泛型>
+        方法名(泛型)
+    3. 泛型通配符
