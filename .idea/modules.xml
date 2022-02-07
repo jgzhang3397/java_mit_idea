@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/day09_API/day09_API.iml" filepath="$PROJECT_DIR$/day09_API/day09_API.iml" />
       <module fileurl="file://$PROJECT_DIR$/day10_Collection&amp;Reflect/day10.iml" filepath="$PROJECT_DIR$/day10_Collection&amp;Reflect/day10.iml" />
       <module fileurl="file://$PROJECT_DIR$/day11_data_structure/day11_data_structure.iml" filepath="$PROJECT_DIR$/day11_data_structure/day11_data_structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day12_ListAndSet/day12_ListAndSet.iml" filepath="$PROJECT_DIR$/day12_ListAndSet/day12_ListAndSet.iml" />
     </modules>
   </component>
 </project>
