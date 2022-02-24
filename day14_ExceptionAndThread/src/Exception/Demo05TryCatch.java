@@ -28,8 +28,26 @@ public class Demo05TryCatch {
             //可能产生异常的代码
             readFile("usr:\\a.tx");
         } catch (IOException e) {
-            //异常的处理逻辑，怎么处理异常
-            System.out.println("catch - 传递的文件后缀不是.txt");
+//            //异常的处理逻辑，怎么处理异常
+//            System.out.println("catch - 传递的文件后缀不是.txt");
+
+            /**
+             * Throwable类中定义了3个异常处理的方法
+             *  String getMessage() 返回此throwable 的简短描述
+             *  String toString() 返回此throwable 的详细消息字符串
+             *  void printStackTrace() JVM打印异常对象，默认此方法，打印的异常信息最全面
+             */
+
+            //System.out.println(e.getMessage());//文件的后缀名不对
+            //System.out.println(e.toString());//重写Object类的toString java.io.IOException: 文件的后缀名不对
+            //System.out.println(e);//java.io.IOException: 文件的后缀名不对
+
+            /*
+                java.io.IOException: 文件的后缀名不对
+	                at Exception.Demo05TryCatch.readFile(Demo05TryCatch.java:56)
+	                at Exception.Demo05TryCatch.main(Demo05TryCatch.java:29)
+             */
+            e.printStackTrace();
         }
         System.out.println("Coding continue...");
     }
