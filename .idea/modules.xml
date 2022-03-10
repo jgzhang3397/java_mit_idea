@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/day13_Map/day13_Map.iml" filepath="$PROJECT_DIR$/day13_Map/day13_Map.iml" />
       <module fileurl="file://$PROJECT_DIR$/day14_ExceptionAndThread/day14_ExceptionAndThread.iml" filepath="$PROJECT_DIR$/day14_ExceptionAndThread/day14_ExceptionAndThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/day15_Thread/day15_Thread.iml" filepath="$PROJECT_DIR$/day15_Thread/day15_Thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/software_engineer/software_engineer.iml" filepath="$PROJECT_DIR$/software_engineer/software_engineer.iml" />
     </modules>
   </component>
 </project>
